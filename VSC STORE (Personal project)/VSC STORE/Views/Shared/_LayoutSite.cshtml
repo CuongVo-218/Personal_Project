@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>VSC STORE</title>
+    <link href="~/Public/images/slider-1-.jpg" rel="shortcut icon" type="image/x-icon" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Public/plugins/fontawesome-free/css/all.min.css" rel="stylesheet" />
+    <link href="~/Public/css/LayoutSite.css" rel="stylesheet" />
+    @RenderSection("header", required: false)
+</head>
+<body>
+    <section class="header clearfix">
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-2 py-3 logo">
+                    <a href="https://localhost:44341/"><img src="~/Public/images/logostore.png" alt="Logo" class="img-fluid" /></a>
+                </div>
+                <div class="col-md-6 py-5">
+                    <form action="/tim-kiem" class="d-flex">
+                        <input name="SearchString" class="outline-primary form-control me-2" type="search" placeholder="Tìm kiếm sản phẩm..." aria-label="Search">
+                        <button class="btn btn-sm btn-outline-primary" type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+
+                </div>
+                <div class="col-md-4 text-center py-3">
+                    @Html.Action("Account", "Module")
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mainmenu clearfix bg-main ">
+        <div class="container ">
+            @Html.Action("MainMenu", "Module")
+        </div>
+    </section>
+
+    <section class="maincontent clearfix ">
+        @RenderBody()
+    </section>
+    <section class="footer clearfix bg-footer py-4 text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3 class="text-warning">VSC STORE</h3>
+                    <ul>
+                        <li><a class="text-decoration-none"><strong>Hotline</strong>: 0363514862</a></li>
+                        <li><a class="text-decoration-none"><strong>Email</strong>: hazovsc00p@gmail.com</a></li>
+                        <li><a class="text-decoration-none"><strong>Địa chỉ</strong>: 20 Tăng Nhơn Phú, Phường Phước Long B, Quận 9,TP.Thủ Đức TP.HCM </a></li>
+                        <li><a class="text-decoration-none"><strong>Giờ mở cửa</strong>  : Thứ 2 – Chủ Nhật Hàng Tuần: Từ 8h00 đến 22h30</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    @Html.Action("MenuFooter", "Module")
+                </div>
+                <div class="col-md-4">
+                    <h3 class="text-warning">FOLLOW US</h3>
+                    <div class="row">
+                        <div class="col-md-1">
+                            <a href="https://www.facebook.com/cuonq.lanqtu">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </div>
+                        <div class="col-md-1">
+                            <a href="https://www.instagram.com/cuong_vox.78/">
+                                <i class="fab fa-instagram-square"></i>
+                            </a>
+                        </div>
+                        <div class="col-md-1">
+                            <a href="https://www.youtube.com/channel/UCCc-MlJS_9jRtX1HKqoGS_w">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="col-md-9">
+                            <a href="https://localhost:44341/">
+                                <img src="~/Public/images/logostore.png" class="img-fluid" width="50px" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="copyright clearfix bg-footer py-2">
+        <div class="container border-top border-light">
+            <div class="row">
+                <div class=" text-light text-center">
+                    Bản quyền cung cấp bởi Võ Sĩ Cường
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+    @RenderSection("footer", required: false)
+</body>
+</html>
+

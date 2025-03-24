@@ -1,0 +1,12 @@
+﻿@model IEnumerable<MyClass.Models.Category>
+<div class="listcategory md-4">
+    <div class="card" style="width: 100%;">
+        <div class="card-header bg-main text-light">
+            DANH MỤC SẢN PHẨM
+        </div>
+            @foreach(var category in Model)
+            {
+                <a class="btn list-group-item list-group-item-action" href="@category.Slug">@category.Name</a>
+            }
+    </div>
+</div>

@@ -1,0 +1,77 @@
+D:\NguyenThiNgocKieu2119110016\MyClass\obj\Debug\MyClass.csproj.CoreCompileInputs.cache
+D:\NguyenThiNgocKieu2119110016\MyClass\bin\Debug\MyClass.dll.config
+D:\NguyenThiNgocKieu2119110016\MyClass\bin\Debug\MyClass.dll
+D:\NguyenThiNgocKieu2119110016\MyClass\bin\Debug\MyClass.pdb
+D:\NguyenThiNgocKieu2119110016\MyClass\bin\Debug\EntityFramework.dll
+D:\NguyenThiNgocKieu2119110016\MyClass\bin\Debug\EntityFramework.SqlServer.dll
+D:\NguyenThiNgocKieu2119110016\MyClass\bin\Debug\EntityFramework.xml
+D:\NguyenThiNgocKieu2119110016\MyClass\bin\Debug\EntityFramework.SqlServer.xml
+D:\NguyenThiNgocKieu2119110016\MyClass\obj\Debug\MyClass.csproj.CopyComplete
+D:\NguyenThiNgocKieu2119110016\MyClass\obj\Debug\MyClass.dll
+D:\NguyenThiNgocKieu2119110016\MyClass\obj\Debug\MyClass.pdb
+D:\NguyenThiNgocKieu2119110016\MyClass\bin\Debug\PagedList.dll
+D:\NguyenThiNgocKieu2119110016\MyClass\bin\Debug\PagedList.Mvc.dll
+D:\NguyenThiNgocKieu2119110016\MyClass\bin\Debug\PagedList.xml
+D:\NguyenThiNgocKieu2119110016\MyClass\bin\Debug\PagedList.Mvc.xml
+D:\NguyenThiNgocKieu2119110016\MyClass\obj\Debug\MyClass.csproj.AssemblyReference.cache
+D:\tttn\NguyenXuanQuang2119110021\MyClass\bin\Debug\MyClass.dll.config
+D:\tttn\NguyenXuanQuang2119110021\MyClass\bin\Debug\MyClass.dll
+D:\tttn\NguyenXuanQuang2119110021\MyClass\bin\Debug\MyClass.pdb
+D:\tttn\NguyenXuanQuang2119110021\MyClass\bin\Debug\EntityFramework.dll
+D:\tttn\NguyenXuanQuang2119110021\MyClass\bin\Debug\EntityFramework.SqlServer.dll
+D:\tttn\NguyenXuanQuang2119110021\MyClass\bin\Debug\PagedList.dll
+D:\tttn\NguyenXuanQuang2119110021\MyClass\bin\Debug\PagedList.Mvc.dll
+D:\tttn\NguyenXuanQuang2119110021\MyClass\bin\Debug\EntityFramework.xml
+D:\tttn\NguyenXuanQuang2119110021\MyClass\bin\Debug\EntityFramework.SqlServer.xml
+D:\tttn\NguyenXuanQuang2119110021\MyClass\bin\Debug\PagedList.xml
+D:\tttn\NguyenXuanQuang2119110021\MyClass\bin\Debug\PagedList.Mvc.xml
+D:\tttn\NguyenXuanQuang2119110021\MyClass\obj\Debug\MyClass.csproj.CoreCompileInputs.cache
+D:\tttn\NguyenXuanQuang2119110021\MyClass\obj\Debug\MyClass.csproj.CopyComplete
+D:\tttn\NguyenXuanQuang2119110021\MyClass\obj\Debug\MyClass.dll
+D:\tttn\NguyenXuanQuang2119110021\MyClass\obj\Debug\MyClass.pdb
+D:\Demo\NguyenXuanQuang_2119110021\NguyenXuanQuang_2119110021\NguyenXuanQuang_2119110021\MyClass\bin\Debug\MyClass.dll.config
+D:\Demo\NguyenXuanQuang_2119110021\NguyenXuanQuang_2119110021\NguyenXuanQuang_2119110021\MyClass\bin\Debug\MyClass.dll
+D:\Demo\NguyenXuanQuang_2119110021\NguyenXuanQuang_2119110021\NguyenXuanQuang_2119110021\MyClass\bin\Debug\MyClass.pdb
+D:\Demo\NguyenXuanQuang_2119110021\NguyenXuanQuang_2119110021\NguyenXuanQuang_2119110021\MyClass\bin\Debug\EntityFramework.dll
+D:\Demo\NguyenXuanQuang_2119110021\NguyenXuanQuang_2119110021\NguyenXuanQuang_2119110021\MyClass\bin\Debug\EntityFramework.SqlServer.dll
+D:\Demo\NguyenXuanQuang_2119110021\NguyenXuanQuang_2119110021\NguyenXuanQuang_2119110021\MyClass\bin\Debug\PagedList.dll
+D:\Demo\NguyenXuanQuang_2119110021\NguyenXuanQuang_2119110021\NguyenXuanQuang_2119110021\MyClass\bin\Debug\EntityFramework.xml
+D:\Demo\NguyenXuanQuang_2119110021\NguyenXuanQuang_2119110021\NguyenXuanQuang_2119110021\MyClass\bin\Debug\EntityFramework.SqlServer.xml
+D:\Demo\NguyenXuanQuang_2119110021\NguyenXuanQuang_2119110021\NguyenXuanQuang_2119110021\MyClass\bin\Debug\PagedList.xml
+D:\Demo\NguyenXuanQuang_2119110021\NguyenXuanQuang_2119110021\NguyenXuanQuang_2119110021\MyClass\obj\Debug\MyClass.csproj.CoreCompileInputs.cache
+D:\Demo\NguyenXuanQuang_2119110021\NguyenXuanQuang_2119110021\NguyenXuanQuang_2119110021\MyClass\obj\Debug\MyClass.csproj.CopyComplete
+D:\Demo\NguyenXuanQuang_2119110021\NguyenXuanQuang_2119110021\NguyenXuanQuang_2119110021\MyClass\obj\Debug\MyClass.dll
+D:\Demo\NguyenXuanQuang_2119110021\NguyenXuanQuang_2119110021\NguyenXuanQuang_2119110021\MyClass\obj\Debug\MyClass.pdb
+D:\Demo\NguyenXuanQuang_2119110021\NguyenXuanQuang_2119110021\NguyenXuanQuang_2119110021\MyClass\bin\Debug\PagedList.Mvc.dll
+D:\Demo\NguyenXuanQuang_2119110021\NguyenXuanQuang_2119110021\NguyenXuanQuang_2119110021\MyClass\bin\Debug\PagedList.Mvc.xml
+C:\Users\hazov\OneDrive\Máy tính\Võ Sĩ Cường_2118110178\VoSiCuong2118110178\MyClass\bin\Debug\MyClass.dll.config
+C:\Users\hazov\OneDrive\Máy tính\Võ Sĩ Cường_2118110178\VoSiCuong2118110178\MyClass\bin\Debug\MyClass.dll
+C:\Users\hazov\OneDrive\Máy tính\Võ Sĩ Cường_2118110178\VoSiCuong2118110178\MyClass\bin\Debug\MyClass.pdb
+C:\Users\hazov\OneDrive\Máy tính\Võ Sĩ Cường_2118110178\VoSiCuong2118110178\MyClass\bin\Debug\EntityFramework.dll
+C:\Users\hazov\OneDrive\Máy tính\Võ Sĩ Cường_2118110178\VoSiCuong2118110178\MyClass\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hazov\OneDrive\Máy tính\Võ Sĩ Cường_2118110178\VoSiCuong2118110178\MyClass\bin\Debug\PagedList.dll
+C:\Users\hazov\OneDrive\Máy tính\Võ Sĩ Cường_2118110178\VoSiCuong2118110178\MyClass\bin\Debug\PagedList.Mvc.dll
+C:\Users\hazov\OneDrive\Máy tính\Võ Sĩ Cường_2118110178\VoSiCuong2118110178\MyClass\bin\Debug\EntityFramework.xml
+C:\Users\hazov\OneDrive\Máy tính\Võ Sĩ Cường_2118110178\VoSiCuong2118110178\MyClass\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hazov\OneDrive\Máy tính\Võ Sĩ Cường_2118110178\VoSiCuong2118110178\MyClass\bin\Debug\PagedList.xml
+C:\Users\hazov\OneDrive\Máy tính\Võ Sĩ Cường_2118110178\VoSiCuong2118110178\MyClass\bin\Debug\PagedList.Mvc.xml
+C:\Users\hazov\OneDrive\Máy tính\Võ Sĩ Cường_2118110178\VoSiCuong2118110178\MyClass\obj\Debug\MyClass.csproj.CoreCompileInputs.cache
+C:\Users\hazov\OneDrive\Máy tính\Võ Sĩ Cường_2118110178\VoSiCuong2118110178\MyClass\obj\Debug\MyClass.csproj.CopyComplete
+C:\Users\hazov\OneDrive\Máy tính\Võ Sĩ Cường_2118110178\VoSiCuong2118110178\MyClass\obj\Debug\MyClass.dll
+C:\Users\hazov\OneDrive\Máy tính\Võ Sĩ Cường_2118110178\VoSiCuong2118110178\MyClass\obj\Debug\MyClass.pdb
+C:\Users\hazov\OneDrive\Máy tính\Võ Sĩ Cường _ 2118110178 _ TTTN\VoSiCuong2118110178_TTTN\MyClass\bin\Debug\MyClass.dll.config
+C:\Users\hazov\OneDrive\Máy tính\Võ Sĩ Cường _ 2118110178 _ TTTN\VoSiCuong2118110178_TTTN\MyClass\bin\Debug\MyClass.dll
+C:\Users\hazov\OneDrive\Máy tính\Võ Sĩ Cường _ 2118110178 _ TTTN\VoSiCuong2118110178_TTTN\MyClass\bin\Debug\MyClass.pdb
+C:\Users\hazov\OneDrive\Máy tính\Võ Sĩ Cường _ 2118110178 _ TTTN\VoSiCuong2118110178_TTTN\MyClass\bin\Debug\EntityFramework.dll
+C:\Users\hazov\OneDrive\Máy tính\Võ Sĩ Cường _ 2118110178 _ TTTN\VoSiCuong2118110178_TTTN\MyClass\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hazov\OneDrive\Máy tính\Võ Sĩ Cường _ 2118110178 _ TTTN\VoSiCuong2118110178_TTTN\MyClass\bin\Debug\PagedList.dll
+C:\Users\hazov\OneDrive\Máy tính\Võ Sĩ Cường _ 2118110178 _ TTTN\VoSiCuong2118110178_TTTN\MyClass\bin\Debug\PagedList.Mvc.dll
+C:\Users\hazov\OneDrive\Máy tính\Võ Sĩ Cường _ 2118110178 _ TTTN\VoSiCuong2118110178_TTTN\MyClass\bin\Debug\EntityFramework.xml
+C:\Users\hazov\OneDrive\Máy tính\Võ Sĩ Cường _ 2118110178 _ TTTN\VoSiCuong2118110178_TTTN\MyClass\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hazov\OneDrive\Máy tính\Võ Sĩ Cường _ 2118110178 _ TTTN\VoSiCuong2118110178_TTTN\MyClass\bin\Debug\PagedList.xml
+C:\Users\hazov\OneDrive\Máy tính\Võ Sĩ Cường _ 2118110178 _ TTTN\VoSiCuong2118110178_TTTN\MyClass\bin\Debug\PagedList.Mvc.xml
+C:\Users\hazov\OneDrive\Máy tính\Võ Sĩ Cường _ 2118110178 _ TTTN\VoSiCuong2118110178_TTTN\MyClass\obj\Debug\MyClass.csproj.AssemblyReference.cache
+C:\Users\hazov\OneDrive\Máy tính\Võ Sĩ Cường _ 2118110178 _ TTTN\VoSiCuong2118110178_TTTN\MyClass\obj\Debug\MyClass.csproj.CoreCompileInputs.cache
+C:\Users\hazov\OneDrive\Máy tính\Võ Sĩ Cường _ 2118110178 _ TTTN\VoSiCuong2118110178_TTTN\MyClass\obj\Debug\MyClass.csproj.CopyComplete
+C:\Users\hazov\OneDrive\Máy tính\Võ Sĩ Cường _ 2118110178 _ TTTN\VoSiCuong2118110178_TTTN\MyClass\obj\Debug\MyClass.dll
+C:\Users\hazov\OneDrive\Máy tính\Võ Sĩ Cường _ 2118110178 _ TTTN\VoSiCuong2118110178_TTTN\MyClass\obj\Debug\MyClass.pdb

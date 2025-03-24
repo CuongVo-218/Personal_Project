@@ -1,0 +1,29 @@
+﻿@model IEnumerable<MyClass.Models.ProductInfo>
+@{
+    var category = ViewBag.Category;
+
+
+}
+@if (Model.Count() != 0)
+{
+    <div class="category-title position-relative py-2">
+        <h4 class=" text-uppercase text-primary">@category.Name</h4>
+        <a class="float-end position-absolute top-0 end-0 py-2 text-decoration-none" href="~/@category.Slug">Xem tất cả</a>
+    </div>
+    <div class="row">
+        @foreach (var product in Model)
+        {
+            <div class="col-md-3 text-center card">
+                    <a href="@product.Slug">
+                        <img src="~/Public/images/Products/@product.Img" class="img-fluid " alt="...">
+                    </a>
+                <div class=" card-body ">
+                    <h6> <a href="@product.Slug" class="text-decoration-none text-black">  @product.Name </a></h6>
+                    <span class='text-decoration-line-through'>@string.Format("{0:0,0}", product.Price)<sup>đ</sup></span>
+                    <span class='fw-bold fs-5 text-danger'>@string.Format("{0:0,0}", product.PriceSale)<sup>đ</sup></span>
+                    <a href="@Url.Action("CartAdd","Giohang",new {productid=product.Id })" class="btn btn-sm btn-info text-light"><i class="fas fa-shopping-basket"></i> Thêm vào giỏ hàng</a>
+                </div>
+            </div>
+        }
+    </div>
+}

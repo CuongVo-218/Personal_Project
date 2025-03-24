@@ -1,0 +1,53 @@
+﻿@{
+    var user = ViewBag.User;
+}
+<button class="btn btn-sm dropdown-toggle btn-info text-light shadow-sm " role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+    <i class="fas fa-user"></i>
+    @if (Session["UserCustomer"].Equals(""))
+    {
+        <span>Tài khoản</span>
+    }
+    else
+    {
+        <span>@user.FullName</span>
+    }
+
+</button>
+<ul class=" btn dropdown-menu" aria-labelledby="dropdownMenuLink">
+    @if (Session["UserCustomer"].Equals(""))
+    {
+        <li ><a class="btn dropdown-item text-info" href="~/dang-nhap"><i class="fas fa-sign-in-alt"></i> Đăng nhập</a></li>
+        <li><a class="btn dropdown-item text-info" href="~/dang-ky"><i class="fas fa-plus-circle"></i> Đăng ký</a></li>
+    }
+    else
+    {
+        <li><a class="btn dropdown-item text-info" href="~/chinh-sua"><i class="fas fa-info-circle"></i> Thông tin</a></li>
+        <li><a class="btn dropdown-item text-info" href="~/chinh-sua"><i class="fas fa-shield-alt"></i> Đổi mật khẩu</a></li>
+        <li><a class="btn dropdown-item text-info" href="~/dang-xuat"><i class="fas fa-sign-out-alt"></i> Đăng xuất</a></li>
+    }
+</ul>
+@{
+    int soluong = 0;
+    if (!System.Web.HttpContext.Current.Session["MyCart"].Equals(""))
+    {
+        List<CartItem>
+    listcart = (List<CartItem>
+        )System.Web.HttpContext.Current.Session["MyCart"];
+        soluong = listcart.Count();
+    }
+    <a href="~/lich-su-don-hang" class=" btn btn-sm btn-outline-info " data-open="#cart-popup"
+       data-class="off-canvas-cart" title="Lịch sử đơn hàng" data-pos="right">
+        <i class="fas fa-clipboard-list" data-icon-label="0"></i>
+    </a>
+    <a href="~/gio-hang" class="btn btn-sm btn-outline-info  shadow-sm  position-relative " data-open="#cart-popup"
+       data-class="off-canvas-cart" title="Giỏ hàng" data-pos="right">
+        <i class="fas fa-shopping-basket" data-icon-label="0"> </i>
+        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+            @soluong
+            <span class="visually-hidden">unread messages</span>
+        </span>
+    </a>
+
+}
+
+

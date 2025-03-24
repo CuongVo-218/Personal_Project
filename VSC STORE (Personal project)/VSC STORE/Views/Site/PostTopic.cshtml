@@ -1,0 +1,36 @@
+﻿@model IEnumerable<MyClass.Models.PostInfo>
+@{
+    var topic = ViewBag.Topic;
+}
+@{
+    ViewBag.Title = topic.Name;
+    Layout = "~/Views/Shared/_LayoutSite.cshtml";
+}
+
+<section class="maincontent clearfix">
+    <div class="container my-3">
+        <div class="row">
+            <div class="col-md-12 col-lg-12">
+                <div class="post-title position-relative">
+                    <h3 class="text-center text-primary ">@topic.Name</h3>
+                </div>
+                @foreach (var post in Model)
+                {
+                    <div class="row my-4 border-top">
+                        <div class="col-md-4  ">
+                            <a href="@post.Slug"> <img src="~/Public/images/Posts/@post.Img" class="img-fluid" /> </a>
+                        </div>
+                        <div class="col-md-8 py-2">
+                            <a href="@post.Slug"><h5>@post.Title</h5></a>
+                            <p><i class="far fa-clock"></i><strong> @post.CreatedAt</strong></p>
+                            <p>@Html.Raw(HttpUtility.HtmlDecode(XString.Str_Limit(post.Detail, 200)))</p>
+                            <div class="text-right"><a href="@post.Slug">Xem thêm</a></div>
+                        </div>
+                    </div>
+                }
+
+            </div>
+        </div>
+    </div>
+</section>
+

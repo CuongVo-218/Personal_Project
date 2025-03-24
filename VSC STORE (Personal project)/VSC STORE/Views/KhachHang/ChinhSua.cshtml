@@ -1,0 +1,72 @@
+﻿@model MyClass.Models.User
+
+@{
+    ViewBag.Title = "Tài khoản";
+    Layout = "~/Views/Shared/_LayoutSite.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(model => model.Id)
+    @Html.HiddenFor(model => model.Password)
+    @Html.HiddenFor(model => model.Roles)
+    @Html.HiddenFor(model => model.Status)
+    @Html.HiddenFor(model => model.CreatedBy)
+    @Html.HiddenFor(model => model.CreatedAt)
+
+<section class="container my-2">
+    <h4 class="text-center"><span class="text-danger">@Model.FullName</span></h4>
+    <hr />
+    <div class="row">
+        @Html.Partial("Message")
+        <div class="col-3 col-md-3 "></div>
+        <div class="col-6 col-md-6 ">
+            <div class="form-group">
+                <label><strong>Họ tên</strong></label>
+                <div class="col">
+                    @Html.EditorFor(model => model.FullName, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.FullName, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label><strong>Tên tài khoản</strong></label>
+                <div class="col">
+                    @Html.EditorFor(model => model.UserName, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.UserName, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label><strong>Địa chỉ</strong></label>
+                <div class="col">
+                    @Html.EditorFor(model => model.Address, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label><strong>Email</strong></label>
+                <div class="col">
+                    @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label><strong>Điện thoại</strong></label>
+                <div class="col">
+                    @Html.EditorFor(model => model.Phone, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Phone, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+        </div>
+        <div class="col-3 col-md-3 "></div>
+    </div>
+
+    <div class="form-group py-2 text-center ">
+        <button type="submit" value="Save" class="btn btn-primary">Lưu</button>
+    </div>
+</section>
+}
+
